@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Barva-Bladet – Barvabygden</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/site.css" />
+</head>
+<body>
+
+  <div id="navbar-placeholder"></div>
+
+  <!-- Header -->
+  <header class="bg-barva-secondary text-barva-dark text-center py-4">
+    <div class="container">
+      <h1 class="display-5">Barva bladet</h1>
+      <p class="lead">Bygdens egen nyhetstidning</p>
+    </div>
+  </header>
+
+  <main class="bg-light py-5">
+    <div class="container">
+
+      <section class="mb-5 text-center">
+        <p class="fs-5">Här hittar du arkiv med tidigare nummer av Barva-Bladet. Bläddra, läs eller ladda ner som PDF.</p>
+      </section>
+
+      <section>
+        <div class="accordion" id="bladetAccordion">
+
+          <!-- 2024 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="bladet2019Heading">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bladet2019" aria-expanded="false">
+                📰 Barva bladet 2019
+              </button>
+            </h2>
+            <div id="bladet2019" class="accordion-collapse collapse" data-bs-parent="#bladetAccordion">
+              <div class="accordion-body">
+                <ul class="list-unstyled">
+                    <li><a href="../assets/barva-bladet/barva-bladet-53.pdf" target="_blank">Nr 2 – 2019 (PDF)</a></li>
+                    <li><a href="../assets/barva-bladet/barva-bladet-52.pdf" target="_blank">Nr 3 – 2019 (PDF)</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2023 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="bladet2018Heading">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bladet2018">
+                📰 Barva-Bladet 2018
+              </button>
+            </h2>
+            <div id="bladet2018" class="accordion-collapse collapse" data-bs-parent="#bladetAccordion">
+              <div class="accordion-body">
+                <ul class="list-unstyled">
+                    <li><a href="../assets/barva-bladet/barva-bladet-54.pdf" target="_blank">Nr 1 – 2018 (PDF)</a></li>
+                    <li><a href="../assets/barva-bladet/barva-bladet-51.pdf" target="_blank">Nr 2 – 2018 (PDF)</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2022 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="bladet2017Heading">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bladet2017">
+                📰 Barva-Bladet 2017
+              </button>
+            </h2>
+            <div id="bladet2017" class="accordion-collapse collapse" data-bs-parent="#bladetAccordion">
+              <div class="accordion-body">
+                <ul class="list-unstyled">
+                    <li><a href="../assets/barva-bladet/barva-bladet-49.pdf" target="_blank">Nr 1 – 2017 (PDF)</a></li>
+                    <li><a href="../assets/barva-bladet/barva-bladet-50.pdf" target="_blank">Nr 2 – 2017 (PDF)</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- More years can go here... -->
+
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4 mt-auto">
+    <p class="mb-1">&copy; 2025 Barvabygden</p>
+    <small>Har du material till nästa nummer? <a href="mailto:ivarssonanne@gmail.com" class="text-light">Skicka in till redaktionen</a></small>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="../js/site.js"></script>
+</body>
+</html>

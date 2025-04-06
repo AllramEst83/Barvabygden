@@ -1,5 +1,4 @@
 $(function() {
-    console.log("Barva site is ready!");
-  
-      $('#navbar-placeholder').load('../includes/navbar.html');
+    console.log("Page has loaded!");  
+    $('#navbar-placeholder').load('../includes/navbar.html');
   });
